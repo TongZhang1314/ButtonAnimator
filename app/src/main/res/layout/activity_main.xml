@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.tongzhang.nbbutton.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_content"
+        android:background="@color/cutePink"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.example.tongzhang.nbbutton.ui.NbButton
+            android:id="@+id/button_test"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="100dp"
+            android:textColor="#fff"
+            android:text="登陆"
+            android:layout_width="220dp"
+            android:layout_height="50dp" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
