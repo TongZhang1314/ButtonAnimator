@@ -7,5 +7,5 @@
 * 4 AnimatorSet
 * 5 ViewAnimationUtils.createCircularReveal
 * 6 Activity转场淡入淡出
-
-!https://www.jianshu.com/p/f3e7026a9a85
+详细介绍请移步
+https://www.jianshu.com/p/f3e7026a9a85
